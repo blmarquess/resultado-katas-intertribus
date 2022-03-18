@@ -6,8 +6,8 @@
     Você tem canhões de batalha, eles estão prontos?
     Seu trabalho é checar se os atiradores estão carregados e prontos, se eles estiverem: Atire!
     Se eles não estiverem prontos:  Tragam-me polvora!
-    Quando você fizer a pergunta a resposta deles deve ser: aye ou nay.
-    Obs: Atirar com menos de todos os canhões prontos não valem (Isso não é atire a vontade e sim atirar só quando o capitão Dolly avisar, seus cães sarnentos imundos!).
+    Quando você fizer a pergunta a resposta deles deve ser: aye ou nay. (aye = pronto / nay = não pronto)
+    Obs: Atirar com menos de todos os canhões prontos não vale (Isso não é atire a vontade e sim atirar só quando o capitão Dolly avisar, seus cães sarnentos imundos!).
     Se todas as respostas forem 'aye' então 'Atire!' se uma ou mais forem 'nay' então 'Tragam-me polvora'.
 */
 
