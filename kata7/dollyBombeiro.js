@@ -1,11 +1,11 @@
 /*
   Você é um piloto de combate a incendio
-  Você recebe uma ligação do seu chefe Robert Dolly, sobre um incendio que precisa da sua ajuda!
-  Seu modo de trabalho é usando a menor quantidade de bombas de dolly possíveis (isso mesmo, você vai combater o incendio com Dolly).
+  Você recebeu uma ligação do seu chefe Robert Dolly, sobre um incendio que precisa da sua ajuda!
+  Seu modo de trabalho é usar a menor quantidade de DollyBombs possíveis (isso mesmo, você vai combater o incendio com Dolly).
   a string abaixo representa fogo: x e prédios: Y.
   As DollyBombs que você jogar não conseguem atravesar prédios, então cada foco de incendio tem que ser resolvido separadamente.
   a potencia da DollyBomb vai ser determinada por um paramêtro 'w'.
-  Lembre-se você tem que usar o mínimo de DollyBombs possíveis.
+  Lembre-se, você tem que usar o mínimo de DollyBombs possíveis.
 
   Exemplos:
   "xxYxx" e w = 3 ---> 2 DollyBombs!
