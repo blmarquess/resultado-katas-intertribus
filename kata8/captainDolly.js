@@ -8,7 +8,7 @@
     Se eles não estiverem prontos:  Tragam-me polvora!
     Quando você fizer a pergunta a resposta deles deve ser: aye ou nay. (aye = pronto / nay = não pronto)
     Obs: Atirar com menos de todos os canhões prontos não vale (Isso não é atire a vontade e sim atirar só quando o capitão Dolly avisar, seus cães sarnentos imundos!).
-    Se todas as respostas forem 'aye' então 'Atire!' se uma ou mais forem 'nay' então 'Tragam-me polvora'.
+    Se todas as respostas forem 'aye' então 'Atire!' se uma ou mais forem 'nay' então 'Tragam-me polvora!'.
 */
 
 function cannonReady(gunners) {
