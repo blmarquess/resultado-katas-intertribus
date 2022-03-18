@@ -8,7 +8,7 @@
 */
 
 function trueLove(num1, num2) {
-  return num1 % 2 !== num2 % 2 ? 'Vocês vão ser felizes para sempre' : 'Isso vai dar ruim, tem certeza que quer continuar?';
+  //Sua solução vai aqui!
 }
 
 module.exports = trueLove;

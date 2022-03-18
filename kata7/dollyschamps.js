@@ -15,21 +15,6 @@
 
 function leftovers(array) {
   //Sua solução vai aqui!
-  if(!array.length) {
-    return 'Sobrou todos os números';
-  }
-  const x = array.join('').split('');
-  const arrayOfAllNumbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-
-  if(arrayOfAllNumbers.every((number) => x.includes(number))) {
-    return 'Não sobrou nenhum número'
-  }
-  
-  const result = arrayOfAllNumbers.filter((number) => !x.includes(number));
-
-  return result.join('');
 }
-
-console.log(leftovers([12, 34, 56, 78, 90]));
 
 module.exports = leftovers;

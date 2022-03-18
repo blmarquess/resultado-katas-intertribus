@@ -14,15 +14,6 @@
 
 function digitalRoot(n) {
   //Sua solução aqui!
-  const numberInArray = `${n}`.split('')
-  
-  const result = numberInArray.reduce((acc, number) => acc + Number(number), 0)
-  
-  if (result > 9 ) {
-    return digitalRoot(result)
-  }
-  
- return result;
 }
 
 module.exports = digitalRoot;

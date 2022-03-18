@@ -8,10 +8,6 @@
 
 function isPangram(phrase) {
   //Sua solução aqui!
-  const allLetters = "abcdefghijklmnopqrstuvxwyz".split('');
-  
-  return allLetters.every((letter) => phrase.toLowerCase().includes(letter));
 }
-
 
 module.exports = isPangram;

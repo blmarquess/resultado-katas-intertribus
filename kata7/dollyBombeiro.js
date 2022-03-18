@@ -16,13 +16,6 @@
 
 function dollyBombs(fire, w) {
   // Sua solução vai aqui!
-  const fireSpots = fire.split('Y').filter((size) => size !== '');
-   
-   const result = fireSpots.reduce((acc, spots) => {
-     return Math.ceil(acc + spots.length / w)
-   }, 0);  
-   return result
 }
-
 
 module.exports = dollyBombs;

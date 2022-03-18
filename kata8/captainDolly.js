@@ -14,10 +14,6 @@
 
 function cannonReady(gunners) {
   //Sua solução vai aqui!
-  const areYouReady = Object.values(gunners);
-  
-  return areYouReady.every((say) => say === 'aye') ? 'Atire!' : 'Tragam-me polvora!'
 }
-
 
 module.exports = cannonReady;
