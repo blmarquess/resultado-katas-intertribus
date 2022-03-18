@@ -19,11 +19,11 @@ O máximo de ponto no total é: 10 pt;
 
 Cada equipe será formada por até 3 (três) integrantes, a equipe será gerada de maneira aleatória, de acordo com a quantidade de participantes.
 * A equipe será responsável por clonar o repositório onde estão os desafios;
-* Executar o comando npm install e se não tiver o mocha instalado roda o comando npm install -g mocha;
+* Executar o comando **npm install** e se não tiver o mocha instalado roda o comando **npm install -g mocha**;
 * Criar uma nova branch com o nome da equipe;
-* Abrir um PR e solucionar os desafios na branch criada. 
+* Abrir um **PR** e solucionar os desafios na branch criada. 
 
-!!Importante não esquecer de instalar as dependências do desafio com o comando npm install !!
+**IMPORTANTE não esquecer de instalar as dependências do desafio com o comando npm install**
 
 ### É permitido a consulta a documentação oficial do JavaScript! 
 - https://developer.mozilla.org/pt-BR/
