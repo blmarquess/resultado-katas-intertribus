@@ -7,9 +7,9 @@ Como será?
 como pode ver temos 3 pastas, em cada pasta temos 2 desafios, e cada desafio tem um teste para verificar que você conseguiu concluir com êxito.
 O tempo para a solução de todos os desafios será de 60 minutos. Cada Kata tem uma pontuação especifica.
 
-Cada Kata 8 = 0.5 pt;
-Cada Kata 7 = 2.0 pt;
-Cada Kata 6 = 2.5 pt;
+* Cada Kata 8 = 0.5 pt;
+* Cada Kata 7 = 2.0 pt;
+* Cada Kata 6 = 2.5 pt;
 
 O máximo de ponto no total é: 10 pt; 
 
