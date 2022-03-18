@@ -1,7 +1,7 @@
 /* 
   Você estava vendo uma aula de Terence Dolly.
-  e ele tava fazendo exercicios sobre Digital root, é a soma dos digitos de um determinado número!
-  Quando viu, você teve a ideia de fazer um algoritimo para resolver esse problema!
+  e ele tava fazendo exercicios sobre Digital root, que é a soma dos digitos de um determinado número!
+  Quando você viu, teve a ideia de fazer um algoritimo para resolver esse problema!
 
   Então dado um número n retorne a soma de todos os digitos, se o resultado tem mais de 1 digito continue fazendo as somas até apenas um único número ser o resultado (não pode ser negativo).
 
