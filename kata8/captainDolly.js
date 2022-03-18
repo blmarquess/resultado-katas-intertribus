@@ -9,10 +9,15 @@
     A quantidade de atiradores para cada caso de teste vão ser de 2, 3 ou 4.
     Quando você fizer a pergunta a resposta deles deve ser: aye ou nay.
     Obs: Atirar com menos de todos os canhões prontos não valem (Isso não é atire a vontade e sim atirar só quando o capitão Dolly avisar, seus cães sarnentos imundos!).
-    Se todas as respostas forem 'aye' então 'atire!' se uma ou mais forem 'nay' então 'Tragam-me polvora'.
+    Se todas as respostas forem 'aye' então 'Atire!' se uma ou mais forem 'nay' então 'Tragam-me polvora'.
 */
 
 function cannonReady(gunners) {
   //Sua solução vai aqui!
+  const areYouReady = Object.values(gunners);
+  
+  return areYouReady.every((say) => say === 'aye') ? 'Atire!' : 'Tragam-me polvora!'
 }
 
+
+module.exports = cannonReady;
