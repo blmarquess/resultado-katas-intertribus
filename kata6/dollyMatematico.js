@@ -1,9 +1,9 @@
 /* 
   Você estava vendo uma aula de Terence Dolly.
-  e ele tava fazendo exercicios sobre Digital root, que é a soma dos digitos de um determinado número!
+  e ele tava fazendo exercícios sobre Digital root, que é a soma dos dígitos de um determinado número!
   Quando você viu, teve a ideia de fazer um algoritimo para resolver esse problema!
 
-  Então dado um número n retorne a soma de todos os digitos, se o resultado tem mais de 1 digito continue fazendo as somas até apenas um único número ser o resultado (não pode ser negativo).
+  Então dado um número n retorne a soma de todos os dígitos, se o resultado tem mais de 1 dígito continue fazendo as somas até apenas um único número ser o resultado (não pode ser negativo).
 
   Exemplo:
     16 ---> 1 + 6 = 7
