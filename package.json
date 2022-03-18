@@ -1,0 +1,26 @@
+{
+  "name": "dollynho_wars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SSpinelli/dollynho_wars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SSpinelli/dollynho_wars/issues"
+  },
+  "homepage": "https://github.com/SSpinelli/dollynho_wars#readme",
+  "dependencies": {
+    "chai": "^4.3.6"
+  }
+}

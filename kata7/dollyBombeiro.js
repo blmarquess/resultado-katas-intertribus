@@ -11,9 +11,18 @@
   "xxYxx" e w = 3 ---> 2 DollyBombs!
   "xxYxx" e w = 1 ---> 4 DollyBombs!
   "xxxxYxYx" e w = 5 ---> 3 DollyBombs!
-  "xxxxxYxYx" e = 2 ---> 5 DollyBombs! 
+  "xxxxxYxYx" e w = 2 ---> 5 DollyBombs! 
 */
 
 function dollyBombs(fire, w) {
   // Sua solução vai aqui!
+  const fireSpots = fire.split('Y').filter((size) => size !== '');
+   
+   const result = fireSpots.reduce((acc, spots) => {
+     return Math.ceil(acc + spots.length / w)
+   }, 0);  
+   return result
 }
+
+
+module.exports = dollyBombs;
