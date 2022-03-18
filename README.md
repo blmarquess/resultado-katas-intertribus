@@ -19,7 +19,7 @@ O máximo de ponto no total é: 10 pt;
 
 Cada equipe será formada por até 3 (três) integrantes, a equipe será gerada de maneira aleatória, de acordo com a quantidade de participantes.
 * A equipe será responsável por clonar o repositório onde estão os desafios;
-* Executar o comando npm install;
+* Executar o comando npm install e se não tiver o mocha instalado roda o comando npm install mocha;
 * Criar uma nova branch com o nome da equipe;
 * Abrir um PR e solucionar os desafios na branch criada. 
 
