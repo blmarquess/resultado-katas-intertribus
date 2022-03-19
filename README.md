@@ -1,5 +1,7 @@
 # dollynho_wars
 
+## Resultados:
+* Bruno Marques - https://www.linkedin.com/in/00brunomarques/
 
 ## Preparados para o Dollynho Wars?
 
@@ -34,3 +36,6 @@ Cada equipe será formada por até 3 (três) integrantes, a equipe será gerada 
 ### Contribuidores
 * Fernando Mós - https://www.linkedin.com/in/fernando-mos/
 * João Gabriel Spinelli - https://www.linkedin.com/in/jgsspinelli/
+
+### Codigos
+* Bruno Marques - https://www.linkedin.com/in/00brunomarques/
