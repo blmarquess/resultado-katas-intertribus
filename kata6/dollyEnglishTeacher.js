@@ -6,8 +6,6 @@
   dada uma string defina se é ou não um pangram, retornando true quando for e false quando não for.
 */
 
-function isPangram(phrase) {
-  //Sua solução aqui!
-}
+const isPangram = (ph) => new Set([...ph.toLowerCase().replace(/\W/gi, '')]).size === 26;
 
 module.exports = isPangram;
