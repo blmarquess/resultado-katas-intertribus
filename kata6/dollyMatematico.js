@@ -12,8 +12,21 @@
     493193 ---> 4 + 9 + 3 + 1 + 9 + 3 = 29 ---> 2 + 9 = 11 ---> 1 + 1 = 2
 */
 
-function digitalRoot(n) {
-  //Sua solução aqui!
+{
+  function digitalRoot(n) {
+  const num = [...n.toString()];
+  if(num.length === 1) return Number(num[0]);
+  const arr = num.reduce((acc, crv) => Number(acc) + Number(crv));
+  return digitalRoot(arr);
+  }
 }
+
+function digitalRoot(n) {
+  if(n <= 9) return n;
+  const arr = [...n.toString()].reduce((acc, crv) => Number(acc) + Number(crv));
+  return digitalRoot(arr);
+}
+
+// console.log(digitalRoot(132189));
 
 module.exports = digitalRoot;

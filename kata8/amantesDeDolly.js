@@ -7,8 +7,14 @@
     dois pares ou dois impares ---> 'Isso vai dar ruim, tem certeza que quer continuar?' 
 */
 
-function trueLove(num1, num2) {
-  //Sua solução vai aqui!
-}
+const ruim = 'Isso vai dar ruim, tem certeza que quer continuar?';
+const baom = 'Vocês vão ser felizes para sempre';
+
+const isPar = (n) => n % 2 === 0;
+
+const trueLove = (...duo) => {
+  const ar = duo.map(e => isPar(e));
+  return ar[0] === ar[1] ? ruim : baom
+};
 
 module.exports = trueLove;

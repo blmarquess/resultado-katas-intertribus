@@ -13,8 +13,17 @@
     [2015, 8, 26] ===> "3479"
 */
 
+const numList = [...new Array(10).keys()].map(n => n.toString());
+
 function leftovers(array) {
-  //Sua solução vai aqui!
+  if (array.length === 0) return "Sobrou todos os números";
+  const st = array.join('').split('');
+  const results = [];
+
+  numList.join('').split('').forEach(n => {
+    if (!st.includes(n)) results.push(n);
+  });
+  return results.length === 0 ? 'Não sobrou nenhum número' : results.join('');
 }
 
 module.exports = leftovers;

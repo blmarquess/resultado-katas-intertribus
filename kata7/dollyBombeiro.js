@@ -14,8 +14,14 @@
   "xxxxxYxYx" e w = 2 ---> 5 DollyBombs! 
 */
 
-function dollyBombs(fire, w) {
-  // Sua solução vai aqui!
-}
+{
+  const dollyBombs = (fire, w) => fire.split('Y')
+    .map(bomb => Math.ceil(bomb.length / w), 1).reduce((acc, crv) => acc + crv);
+} 
+
+const dollyBombs = (f, w) => f.split('Y').reduce((ac, cr) => (Math.ceil(cr.length / w, 1)) + ac, 0);
+
+// const teste4 = 'xxYxxxxxxxYYxxxxxxxxYxxxxxxxYxYxxxYxxYxxYxxxYxxxxYxxxxYxxxxxYxxxY';
+// console.log(dollyBombs(teste4, 2))
 
 module.exports = dollyBombs;

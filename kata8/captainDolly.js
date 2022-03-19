@@ -11,8 +11,9 @@
     Se todas as respostas forem 'aye' então 'Atire!' se uma ou mais forem 'nay' então 'Tragam-me polvora!'.
 */
 
-function cannonReady(gunners) {
-  //Sua solução vai aqui!
-}
+const cannonReady = (gunners) => Object
+  .values(gunners).every(v => v === 'aye')
+  ? 'Atire!'
+  : 'Tragam-me polvora!';
 
 module.exports = cannonReady;
