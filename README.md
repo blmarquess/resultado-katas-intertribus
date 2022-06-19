@@ -41,4 +41,8 @@ Cada equipe será formada por até 3 (três) integrantes, a equipe será gerada 
 * Bruno Marques - https://www.linkedin.com/in/00brunomarques/
 
 
-https://www.youtube.com/watch?v=FfMv6UsvL88
+<div align='center'>
+		
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N2DC6XA)
+		
+</div>
